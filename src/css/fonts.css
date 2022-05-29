@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(../fonts/Quicksand/Quicksand-Regular.ttf) format('truetype');
+    src: url(../fonts/Quicksand/Quicksand-Regular.woff2) format('truetype');
 }
 
 @font-face {
@@ -38,5 +38,5 @@
     font-style: normal;
     font-weight: 700;
     font-display: block;
-    src: url(../fonts/Quicksand/Quicksand-Bold.ttf) format('truetype');
+    src: url(../fonts/Quicksand/Quicksand-Bold.woff2) format('truetype');
 }
