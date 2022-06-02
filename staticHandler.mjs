@@ -19,10 +19,10 @@ export default async function staticHandler(req, res) {
 
     // Here you can set headers like Cache-Control, etc.
     res.setHeader('Content-Type', mime.lookup(filePath) || undefined)
-    res.setHeader('Accept-Encoding', gzip, deflate);
+    // res.setHeader('Accept-Encoding', gzip, deflate);
 
     res.setHeader('Cache-Control', 'max-age=31536000')
-    res.setHeader('Content-Encoding', gzip)
+    // res.setHeader('Content-Encoding', gzip)
 
     // Stream the file to the response.
     createReadStream(filePath).pipe(res)
